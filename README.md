@@ -26,7 +26,6 @@ Para deixar as fórmulas mais limpas, legíveis e fáceis de dar manutenção, c
 * `Tabela_Perfis`: Matriz onde estão os dados de taxas e percentuais (utilizada na fórmula do PROCV).
 * `Aporte_Mensal`: Célula com o valor que será investido todos os meses.
 * `Prazo_Meses`: Célula com o tempo total do investimento.
-* *(Nota: Edite esta lista se você criou outros nomes na sua planilha)*
 
 ## 📊 Percentuais de cada Perfil e Origem
 
@@ -50,11 +49,10 @@ Em relação ao modelo original apresentado nas aulas, implementei as seguintes 
 Abaixo estão os prints provando o funcionamento dinâmico das fórmulas ao alterar os perfis, mantendo os mesmos valores de aporte e prazo.
 
 ### Simulação 1: Perfil Conservador
-*(Substitua o texto abaixo pelo link da sua imagem)*
 
-`![Simulação Conservador](link_da_imagem_aqui.png)`
+`![Simulação Conservador](<img width="726" height="1333" alt="Evidência Perfil Conservador" src="https://github.com/user-attachments/assets/39c60af5-6f1a-4103-aa09-306d9f126ffa" />)`
 
 ### Simulação 2: Perfil Arrojado
 *(Substitua o texto abaixo pelo link da sua imagem)*
 
-`![Simulação Arrojada](link_da_imagem_aqui.png)`
+`![Simulação Arrojada](<img width="714" height="1353" alt="Evidência Perfil Agressivo" src="https://github.com/user-attachments/assets/4230eb9d-bea1-4cbc-a85e-c4fef7f7f724" />)`
