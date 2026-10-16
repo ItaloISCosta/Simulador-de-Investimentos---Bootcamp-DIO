@@ -1,0 +1,60 @@
+# Simulador de Investimentos - Bootcamp DIO
+
+Este repositório contém a planilha de simulação financeira (`TABELA DE INVESTIMENTOS.xlsx`) desenvolvida como desafio de projeto para o bootcamp da [DIO (Digital Innovation One)](https://www.dio.me/). A ferramenta permite simular o crescimento de investimentos ao longo do tempo com base no perfil do investidor.
+
+## 🎯 Perguntas que a ferramenta responde
+
+A ferramenta foi desenhada para responder às seguintes perguntas, ajudando o usuário na tomada de decisão:
+
+* **"Quanto terei acumulado no futuro investindo X por mês?"** 
+  * *Onde aparece:* Na célula de "Montante Final" ou "Valor Acumulado" no painel principal.
+* **"Qual a rentabilidade esperada para o meu perfil?"** 
+  * *Onde aparece:* Na seção de "Taxa de Juros" ou "Rentabilidade" logo após a seleção do perfil.
+* **"Como minha carteira deve ser dividida?"** 
+  * *Onde aparece:* Na tabela de "Alocação Recomendada" (divisão entre Renda Fixa e Renda Variável).
+
+## 🧮 Como o VF e o PROCV entram nos cálculos
+
+* **PROCV (Procura Vertical):** Utilizado para buscar automaticamente as taxas de rentabilidade anual e a distribuição de ativos com base no **Perfil de Investidor** (Conservador, Moderado ou Arrojado) selecionado no menu suspenso. Ele procura o nome do perfil na matriz de dados e retorna a taxa correspondente.
+* **VF (Valor Futuro):** Utilizado para calcular o efeito dos juros compostos. A fórmula recebe a taxa de juros (trazida pelo PROCV e dividida por 12 para conversão mensal), o número de meses (prazo do investimento), o valor do aporte mensal e o valor inicial investido para projetar o patrimônio final.
+
+## 🏷️ Intervalos Nomeados Criados
+
+Para deixar as fórmulas mais limpas, legíveis e fáceis de dar manutenção, criei os seguintes intervalos nomeados na planilha:
+
+* `Perfil_Selecionado`: Célula de entrada onde o usuário escolhe o perfil.
+* `Tabela_Perfis`: Matriz onde estão os dados de taxas e percentuais (utilizada na fórmula do PROCV).
+* `Aporte_Mensal`: Célula com o valor que será investido todos os meses.
+* `Prazo_Meses`: Célula com o tempo total do investimento.
+* *(Nota: Edite esta lista se você criou outros nomes na sua planilha)*
+
+## 📊 Percentuais de cada Perfil e Origem
+
+A distribuição da carteira e as taxas esperadas foram baseadas no material de apoio disponibilizado pelo Expert no Bootcamp da DIO. A divisão de risco ficou estruturada da seguinte forma:
+
+* **Conservador:** 80% Renda Fixa / 20% Renda Variável (Foco em proteção e baixo risco).
+* **Moderado:** 60% Renda Fixa / 40% Renda Variável (Equilíbrio entre segurança e crescimento).
+* **Arrojado:** 30% Renda Fixa / 70% Renda Variável (Foco em multiplicação de patrimônio com maior tolerância ao risco).
+* *(Nota: Se os percentuais da sua planilha forem diferentes, basta ajustar os números acima).*
+
+## 🛠️ O que mudei em relação à ferramenta do Expert
+
+Em relação ao modelo original apresentado nas aulas, implementei as seguintes melhorias na minha `TABELA DE INVESTIMENTOS.xlsx`:
+
+1. **Design e Formatação:** Melhorei a paleta de cores para deixar a interface mais amigável e profissional.
+2. **Novos Indicadores:** *(Escreva aqui se você adicionou algo, como um gráfico ou formatação condicional. Se não, pode apagar este tópico).*
+3. **Usabilidade:** Ajustei as células de entrada de dados para ficarem mais intuitivas para o usuário final.
+
+## 📸 Evidências de Funcionamento (Simulações)
+
+Abaixo estão os prints provando o funcionamento dinâmico das fórmulas ao alterar os perfis, mantendo os mesmos valores de aporte e prazo.
+
+### Simulação 1: Perfil Conservador
+*(Substitua o texto abaixo pelo link da sua imagem)*
+
+`![Simulação Conservador](link_da_imagem_aqui.png)`
+
+### Simulação 2: Perfil Arrojado
+*(Substitua o texto abaixo pelo link da sua imagem)*
+
+`![Simulação Arrojada](link_da_imagem_aqui.png)`
