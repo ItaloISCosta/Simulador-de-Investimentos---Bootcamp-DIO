@@ -31,18 +31,16 @@ Para deixar as fórmulas mais limpas, legíveis e fáceis de dar manutenção, c
 
 A distribuição da carteira e as taxas esperadas foram baseadas no material de apoio disponibilizado pelo Expert no Bootcamp da DIO. A divisão de risco ficou estruturada da seguinte forma:
 
-* **Conservador:** 80% Renda Fixa / 20% Renda Variável (Foco em proteção e baixo risco).
-* **Moderado:** 60% Renda Fixa / 40% Renda Variável (Equilíbrio entre segurança e crescimento).
-* **Arrojado:** 30% Renda Fixa / 70% Renda Variável (Foco em multiplicação de patrimônio com maior tolerância ao risco).
-* *(Nota: Se os percentuais da sua planilha forem diferentes, basta ajustar os números acima).*
+* **Conservador:** 30% FIIs de Papel / 50% FIIs de Tijolo / 10% FIIs Híbridos / 10% FIIs FOFs (Foco em proteção e baixo risco).
+* **Moderado:** 32% FIIs de Papel / 35% FIIs de Tijolo / 8% FIIs Híbridos / 5% FIIs FOFs / 10% FIIs de Desenvolvimento / 10% FIIs de Hotelarias (Equilíbrio entre segurança e crescimento).
+* **Agressivo:** 50% FIIs de Papel / 10% FIIs de Tijolo / 5% FIIs Híbridos / 5% FIIs FOFs / 20% FIIs de Desenvolvimento / 10% FIIs de Hotelarias (Foco em multiplicação de patrimônio com maior tolerância ao risco).
 
 ## 🛠️ O que mudei em relação à ferramenta do Expert
 
 Em relação ao modelo original apresentado nas aulas, implementei as seguintes melhorias na minha `TABELA DE INVESTIMENTOS.xlsx`:
 
 1. **Design e Formatação:** Melhorei a paleta de cores para deixar a interface mais amigável e profissional.
-2. **Novos Indicadores:** *(Escreva aqui se você adicionou algo, como um gráfico ou formatação condicional. Se não, pode apagar este tópico).*
-3. **Usabilidade:** Ajustei as células de entrada de dados para ficarem mais intuitivas para o usuário final.
+2. **Usabilidade:** Ajustei as células de entrada de dados para ficarem mais intuitivas para o usuário final.
 
 ## 📸 Evidências de Funcionamento (Simulações)
 
@@ -52,6 +50,6 @@ Abaixo estão os prints provando o funcionamento dinâmico das fórmulas ao alte
 
 <img width="726" height="1333" alt="Evidência Perfil Conservador" src="https://github.com/user-attachments/assets/39c60af5-6f1a-4103-aa09-306d9f126ffa" />
 
-### Simulação 2: Perfil Arrojado
+### Simulação 2: Perfil Agressivo
 
 <img width="714" height="1353" alt="Evidência Perfil Agressivo" src="https://github.com/user-attachments/assets/4230eb9d-bea1-4cbc-a85e-c4fef7f7f724" />
