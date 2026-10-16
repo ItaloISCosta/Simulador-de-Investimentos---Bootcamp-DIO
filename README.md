@@ -50,9 +50,8 @@ Abaixo estão os prints provando o funcionamento dinâmico das fórmulas ao alte
 
 ### Simulação 1: Perfil Conservador
 
-`![Simulação Conservador](<img width="726" height="1333" alt="Evidência Perfil Conservador" src="https://github.com/user-attachments/assets/39c60af5-6f1a-4103-aa09-306d9f126ffa" />)`
+<img width="726" height="1333" alt="Evidência Perfil Conservador" src="https://github.com/user-attachments/assets/39c60af5-6f1a-4103-aa09-306d9f126ffa" />
 
 ### Simulação 2: Perfil Arrojado
-*(Substitua o texto abaixo pelo link da sua imagem)*
 
-`![Simulação Arrojada](<img width="714" height="1353" alt="Evidência Perfil Agressivo" src="https://github.com/user-attachments/assets/4230eb9d-bea1-4cbc-a85e-c4fef7f7f724" />)`
+<img width="714" height="1353" alt="Evidência Perfil Agressivo" src="https://github.com/user-attachments/assets/4230eb9d-bea1-4cbc-a85e-c4fef7f7f724" />
